@@ -1,6 +1,7 @@
 [
     {
-      "image": "college1.jpg",
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMGNhbXB1c3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
       "collegeName": "Example University 1",
       "admissionDates": {
         "start": "2023-09-01",
@@ -21,7 +22,8 @@
       "rating": 4.5
     },
     {
-      "image": "college2.jpg",
+        "id": 2,
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29sbGVnZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
       "collegeName": "Sample College 2",
       "admissionDates": {
         "start": "2023-10-15",
@@ -42,7 +44,8 @@
       "rating": 4.2
     },
     {
-      "image": "college3.jpg",
+        "id": 3,
+      "image": "https://cdn.britannica.com/03/130603-050-37F7F535/Alliman-Administration-Center-Hesston-College-Mennonite-college.jpg",
       "collegeName": "University of Excellence",
       "admissionDates": {
         "start": "2023-08-20",
