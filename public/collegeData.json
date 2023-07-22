@@ -1,0 +1,65 @@
+[
+    {
+      "image": "college1.jpg",
+      "collegeName": "Example University 1",
+      "admissionDates": {
+        "start": "2023-09-01",
+        "end": "2023-12-31"
+      },
+      "events": [
+        "Orientation Day",
+        "Career Fair",
+        "Alumni Reunion"
+      ],
+      "researchHistory": "Founded in 1905, Example University 1 has a long and illustrious history of groundbreaking research in various fields.",
+      "sports": [
+        "Football",
+        "Basketball",
+        "Swimming",
+        "Tennis"
+      ],
+      "rating": 4.5
+    },
+    {
+      "image": "college2.jpg",
+      "collegeName": "Sample College 2",
+      "admissionDates": {
+        "start": "2023-10-15",
+        "end": "2024-01-15"
+      },
+      "events": [
+        "Open House",
+        "Science Exhibition",
+        "Annual Cultural Fest"
+      ],
+      "researchHistory": "Sample College 2 is known for its cutting-edge research facilities and collaborations with leading research institutions.",
+      "sports": [
+        "Soccer",
+        "Volleyball",
+        "Badminton",
+        "Cricket"
+      ],
+      "rating": 4.2
+    },
+    {
+      "image": "college3.jpg",
+      "collegeName": "University of Excellence",
+      "admissionDates": {
+        "start": "2023-08-20",
+        "end": "2024-01-10"
+      },
+      "events": [
+        "Freshman Welcome Party",
+        "Science Symposium",
+        "Arts Festival"
+      ],
+      "researchHistory": "University of Excellence is renowned for its groundbreaking research and contributions to various academic disciplines.",
+      "sports": [
+        "Baseball",
+        "Track and Field",
+        "Hockey",
+        "Table Tennis"
+      ],
+      "rating": 4.8
+    }
+  ]  

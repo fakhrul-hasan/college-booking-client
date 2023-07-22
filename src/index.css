@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-slider-1{
+    background-image: url(/src/assets/slider1.jpg);
+}
+.bg-slider-2{
+    background-image: url(/src/assets/slider2.jpg);
+}
