@@ -6,7 +6,7 @@ import CollegeCard from "./CollegeCard";
 const PopularSection = () => {
     const [collegesData, setCollegesData] = useState([]);
     useEffect(()=>{
-        fetch('/collegeData.json')
+        fetch('http://localhost:5000/colleges')
         .then(res=>res.json())
         .then(data=>setCollegesData(data))
     },[])
@@ -15,7 +15,7 @@ const PopularSection = () => {
          <SectionTitle firstHeader='Popular' secondHeader='Colleges' subTitle='Find out best college of the year Engineering, Medical, Management, Arts and Science, Law, Nursing, Paramedical' />
          <div className="grid grid-cols-3 gap-6 mb-20">
             {
-                collegesData.map(college=><CollegeCard key={college.id} college={college} />)
+                collegesData.map(college=><CollegeCard key={college._id} college={college} />)
             }
         </div> 
         </>

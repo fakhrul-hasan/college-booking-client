@@ -4,6 +4,7 @@ import {
   } from "react-router-dom";
 import ErrorPage from '../components/pages/ErrorPage.jsx';
 import Home from '../components/pages/Home.jsx';
+import SearchResults from '../components/pages/SearchResults.jsx';
 
 const router = createBrowserRouter([
     {
@@ -13,7 +14,11 @@ const router = createBrowserRouter([
       children:[
         {
             path: '/',
-            element: <Home />
+            element: <Home />,
+        },
+        {
+          path: '/search',
+          element: <SearchResults />
         }
       ]
     },

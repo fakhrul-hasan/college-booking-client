@@ -1,7 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import { NavLink, useNavigate } from "react-router-dom";
 
 
 const Header = () => {
+  const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
+  const handleSearch = () => {
+    navigate(`/search?query=${searchQuery}`);
+    setSearchQuery('');
+  };
     return (
         <div className="navbar bg-base-100 sticky top-0 z-10">
   <div className="flex-1">
@@ -12,8 +19,8 @@ const Header = () => {
     <NavLink to='/' className=''>My College</NavLink>
   </div>
   <div className="flex-none gap-2">
-    <div className="form-control">
-      <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+    <div className="flex items-center">
+      <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Search college" className="input input-bordered w-24 md:w-auto" /><button className="bg-teal-400 hover:bg-teal-600 h-12 px-4 text-white cursor-pointer" onClick={handleSearch}>Search</button>
     </div>
     <div className="dropdown dropdown-end">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
